@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "test-app",
+    "slug": "test-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/B2C.png",
+    "splash": {
+      "image": "./assets/B2C.png",
+      "resizeMode": "center",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
